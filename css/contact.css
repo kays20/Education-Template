@@ -1,0 +1,123 @@
+.content .first {
+    font-size: 4rem !important;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    transform: translateY(200%);
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    padding: 10px;
+    -webkit-background-clip: text;
+    background-position: -1200px 0;
+    animation: bgc 5s linear infinite alternate;
+}
+
+@keyframes bgc {
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.content .first p {
+    font-size: 4rem !important;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+
+.contact-section  {
+
+}
+
+.contact-section .concepteur {
+    min-height: 50vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.contact-section .concepteur .info-concepteur {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 20px 20px 100px ;
+}
+
+.contact-section .concepteur .info-concepteur .nom,
+.contact-section .concepteur .info-concepteur .Linked-In,
+.contact-section .concepteur .info-concepteur .email {
+    padding: 10px;
+}
+
+.contact-section .concepteur .info-concepteur p {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.contact-section .concepteur .info-concepteur p a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.58;
+    transition: 0.3s;
+}
+
+.contact-section .concepteur .info-concepteur p a:hover {
+    color: #000;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.contact-section .concepteur .info-concepteur span {
+    font-size: 20px;
+    color: #FDAE5C;
+}
+
+span, p {
+    display: inline-block;
+}
+
+.contact-section .concepteur .img-concepteur {
+    max-width: 300px;
+    position: relative;
+}
+
+.contact-section .concepteur .img-concepteur img {
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* 
+	start gallery
+*/
+
+.gallery {
+	
+}
+
+.gallery .gallery-content > h1 {    
+    font-weight: 400;
+    margin:  0;
+    font-size: 40px;
+    text-align: center;
+    /* padding: 50px 0 100px; */
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 1px;
+    position: relative; 80px;
+}
+
+.gallery .gallery-content > h1::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1px;
+    background: #fff;
+    width: 28%;
+}

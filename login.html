@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- MAin Font Awdome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MAin Css -->
+    <link rel="stylesheet" href="css/login.css">
+    <!-- main Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main-conetnt">
+        <div class="container">
+            <div class="col-1">
+                <div class="info">
+                    <div class="logo">
+                        <a href="index.html">
+                            <i class="fa-sharp fa-solid fa-graduation-cap"></i>
+                            <span>LTZ</span>
+                        </a>
+                    </div>
+                    <h1>Bienvenue! </br>La premiere chose est de connecter</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tempore amet dolore, repellendus sed illo nisi sunt fugiat, esse eaque obcaecati sit dicta veniam, ut minus. Et nostrum maxime assumenda.lor </p>
+                </div>
+                
+            </div>
+
+            <div class="col-2">
+                <div class="container-form-box">
+
+
+
+                    <div class="form-div login active">
+                        <form class="container-form">
+                            <div class="change-account">
+                                <h1 class="login title"><span>L</span>ogin</h1>
+                            </div>
+                            <div class="Email-box">
+                                <h3>Addresse Email</h3>
+                                <input class="Error-input" type="email" name="" id="" placeholder="Exemple : Cain">
+                                <span class="Validation-Error"><i class="fa-solid fa-triangle-exclamation"></i>Obligatoire</span>
+                            </div>
+                            <div class="password-box">
+                                <h3>Entrer votre mot de passe</h3>
+                                <input class="Error-input" type="password" name="" id="" placeholder="Exemple : 123@#Admin">
+                                <span class="Validation-Error"><i class="fa-solid fa-triangle-exclamation"></i>Obligatoire</span>
+                            </div>
+                            <div class="btn-submit">
+                                <input type="submit" value="Login">
+                            </div>      
+                        </form>
+                        <a href="#" class="sign-link">Je suis un nouveau membre ?</a>
+                    </div>
+                    
+                    
+                    <div class="form-div signin">
+                        <form class="container-form">
+                            <div class="change-account">
+                                <h1 class="login title"><span>S</span>ign in</h1>
+                                <div class="img">
+                                    <img src="" id="img-target">
+                                    <div class="bg-profile-img"></div>
+                                    <span class="upload-img" title="Upload Your Img">
+                                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                    </span>
+                                    <input type="file" name="" class="upload-profile-img" hidden>
+                                </div>
+                            </div>
+                            <div class="name-box">
+                                <div class="col-2-1">
+                                    <h3>Premier Nom</h3>
+                                    <input class="Error-input" type="text" name="" id="" placeholder="Exemple : Timothy">
+                                    <span class="Validation-Error"><i class="fa-solid fa-triangle-exclamation"></i>Obligatoire</span>
+                                </div>
+                                <div class="col-2-1">
+                                    <h3>Dernier Nom</h3>
+                                    <input class="Error-input" type="text" name="" id="" placeholder="Exemple : Cain">
+                                    <span class="Validation-Error"><i class="fa-solid fa-triangle-exclamation"></i>Obligatoire</span>
+                                </div>
+                            </div>
+                            <div class="Email-box">
+                                <h3>Addresse Email</h3>
+                                <input class="Error-input" type="email" name="" id="" placeholder="Exemple : Cain">
+                                <span class="Validation-Error"><i class="fa-solid fa-triangle-exclamation"></i>Obligatoire</span>
+                            </div>
+                            <div class="Job-Description-choice-box">
+                                <h3>La plus belle descreption de vous</h3>
+                                <div class="choices">
+                                    <div class="choice">
+                                        <input type="radio" name="job" id="ch1">
+                                        <label for="ch1">Eleve</label>
+                                    </div>
+                                    <div class="choice">
+                                        <input type="radio" name="job" id="ch2">
+                                        <label for="ch2">Enseignant</label>
+                                    </div>
+                                    <div class="choice">
+                                        <input type="radio" name="job" id="ch3">
+                                        <label for="ch3">Autre</label>
+                                    </div>
+                                </div>
+                                <span class="Validation-Error"><i class="fa-solid fa-triangle-exclamation"></i>Obligatoire</span>
+                            </div>
+                            <div class="Job-description">
+                                <h3>Description</h3>
+                                <textarea name="" id="" cols="30" rows="5" placeholder="Decribe Your Job be Specifique" maxlength="200"></textarea>
+                                <span class="Validation-Error"><i class="fa-solid fa-triangle-exclamation"></i>Obligatoire</span>
+                            </div>
+                            <div class="password-box">
+                                <h3>Entrer votre mot de passe</h3>
+                                <input class="Error-input" type="password" name="" id="" placeholder="Exemple : 123@#Admin">
+                                <span class="Validation-Error"><i class="fa-solid fa-triangle-exclamation"></i>Obligatoire</span>
+                            </div>
+                            <div class="password-box">
+                                <h3>Reecrivez votre mot de passe</h3>
+                                <input class="Error-input" type="password" name="" id="" placeholder="Exemple : 123@#Admin">
+                            </div>
+                                <span class="Validation-Error"><i class="fa-solid fa-triangle-exclamation"></i>Obligatoire</span>
+                            <div class="btn-submit">
+                                <input type="submit" value="Inscription">
+                            </div>      
+                        </form>
+                        <a href="#" class="login-link">Tu as un ancien compte ?</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
